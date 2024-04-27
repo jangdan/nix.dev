@@ -1743,7 +1743,7 @@ declaring data and transforming it with functions.
 In practice, describing derivations requires observing the outside world.
 
 There is only one impurity in the Nix language that is relevant here:
-reading files from the file system as *build inputs*
+reading files from the file system as *build inputs*.
 
 Build inputs are files that derivations refer to in order to describe how to derive new files.
 When run, a derivation will only have access to explicitly declared build inputs.
