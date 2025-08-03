@@ -257,7 +257,7 @@ Whenever you encounter an equal sign (`=`) in Nix language code:
 (attrset)=
 ### Attribute set `{ ... }`
 
-An attribute set is a collection of name-value-pairs, where names must be unique.
+An attribute set is a collection of name-value pairs, where names must be unique.
 
 The following example shows all primitive data types, lists, and attribute sets.
 
@@ -1618,7 +1618,7 @@ The above Nix expression refers to this file as `./file.nix`.
 
 It is an error if the file system path does not exist.
 
-After reading the file, the Nix expression `import ./file.nix` is equivalent to the file contents:
+After reading the file, the Nix expression `import ./file.nix 1` is equivalent to the file contents:
 
 ```{code-block} nix
 :class: expression
